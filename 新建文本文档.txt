@@ -1,0 +1,20 @@
+07-23 01:34:26.469 4884-4910/com.htc.datausagemonitor E/eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+07-23 01:34:26.470 4884-4910/com.htc.datausagemonitor E/eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a'
+            universalApk true
+        }
+    }
